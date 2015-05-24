@@ -1,0 +1,1 @@
+mv - the move command takes two parameters - the location of the file and where you want it to go. So for instance, you can type mv newfile ../newfile to move the file newfile to the parent location, without changing it's name.
