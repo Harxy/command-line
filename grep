@@ -1,6 +1,10 @@
 the grep command allows you to search within files. So, for instance, if you were to type:
 
-grep hello helloworld.txt
+grep 'hello' helloworld.txt
 
 This would return every line in helloworld.txt that had the text hello in it.
+
+you could also just look for lines that have words beginning with 'h' or 'H'. You would do this like this:
+
+grep [^hH] helloworld.txt
 
