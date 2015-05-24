@@ -1,0 +1,6 @@
+the grep command allows you to search within files. So, for instance, if you were to type:
+
+grep hello helloworld.txt
+
+This would return every line in helloworld.txt that had the text hello in it.
+
