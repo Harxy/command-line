@@ -1,0 +1,19 @@
+The wc command is the word count command, and can be used like this:
+
+wc my_file.txt
+
+this will return the word count of the file my_file.txt. However, it actually returns 3 numbers - the line count, the word count and the bytes count.
+
+If you don't want all that information (maybe just the line count?) then you can do it like this:
+
+wc -l
+
+(only returns line count)
+
+wc -w
+
+(only returns the word count)
+
+wc -m
+
+(only returns the character count)
